@@ -23,7 +23,7 @@ Usage
     card = yugioh.get_card(card_name = "The Wicked Dreadroot") #Accepts both name and ID
     print(card.name) #Returns "The Wicked Dreadroot"
     print(card.archetype) #Returns "Wicked God"
-    print(card.attack) #Returns "4000"
+    print(card.atk) #Returns "4000"
 
 ------------------
 Monster Attributes
