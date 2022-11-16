@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='ygo',
+setup(name='yugioh',
       version='1.0.0',
       description='Very Thin Yu-Gi-Oh API Wrapper',
       long_description=open('README.rst').read(),
@@ -8,5 +8,5 @@ setup(name='ygo',
       author='elliejaybee',
       author_email='ellie@femboy.my',
       install_requires=['requests'],
-      packages=['ygo'],
+      packages=['yugioh'],
       keywords='Yu-Gi-Oh API')
