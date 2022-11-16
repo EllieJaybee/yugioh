@@ -20,7 +20,7 @@ Usage
 
     import yugioh
     
-    card = yugioh.get_card(card_name = "The Wicked Dreadroot") #Accepts both name and ID
+    card = yugioh.get_card("The Wicked Dreadroot") #Accepts both name and ID
     print(card.name) #Returns "The Wicked Dreadroot"
     print(card.archetype) #Returns "Wicked God"
     print(card.atk) #Returns "4000"
