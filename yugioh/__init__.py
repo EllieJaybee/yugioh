@@ -4,7 +4,10 @@ class Card:
     def __init__(self, q):
         for key, value in q.items():
             if key not in ("card_sets", "card_images", "card_prices"):
-                setattr(self, key, value)
+                if key == "def":
+                    setattr(self, "def_", value)
+                else:
+                    setattr(self, key, value)
 
 def __get(parameters):
     return requests.get('https://db.ygoprodeck.com/api/v7/cardinfo.php',
