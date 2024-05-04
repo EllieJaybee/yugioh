@@ -40,7 +40,7 @@ Monster Attributes
 +--------------------+---------------------------------+
 | attribute          | The card's attribute            |
 +--------------------+---------------------------------+
-| def_               | The card's defense points       |
+| def\_              | The card's defense points       |
 +--------------------+---------------------------------+
 | desc               | The card's description          |
 +--------------------+---------------------------------+
